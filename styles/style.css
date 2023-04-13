@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #215B93;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #1D41AB;
+}
+.navbar .navButtons {
+  color: #fff;
+  font-size: 20px;
+  background-color: #0668AE;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  display: inline-block;
+}
+.navbar .navButtons:hover {
+  background-color: #36A3A2;
+}
+
+h1 {
+  width: max-content;
+  padding: 15px;
+  margin: 15px;
+  background-color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+  border: #36A3A2 solid 10px;
+}
+
+.rowHome {
+  /* margin: 20px; */
+  border: 0;
+  padding: 0px;
+}
+.rowHome .txtHome {
+  margin: 20px;
+}
+.rowHome .txtHome .txt {
+  background-color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 15px;
+  /* margin: 20px; */
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #000;
+}
+.rowHome .txtHome .imgHome {
+  width: 600px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #000;
+}
+
+.imgFunc {
+  width: 600px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.subTitleFunc, .subTitleSupp, .subTitlePurif {
+  background-color: #1D41AB;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10;
+  width: 60%;
+}
+
+.listFunc {
+  width: max-content;
+  background-color: #1D41AB;
+  padding: 15px;
+  border: #0668AE solid 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10;
+  list-style-type: none;
+}
+.listFunc a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.imgPurif {
+  width: 900px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #000;
+  margin-bottom: 50px;
+}
+
+.img2Purif {
+  width: 90%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.txt2Purif h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.txt2Purif h3 {
+  font-weight: bold;
+}
+
+.subTitlePurif {
+  margin-bottom: 0;
+}
+
+.txt3Purif2 {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.txt3Purif2 li {
+  margin-bottom: 8px;
+}
+
+.txtSupp {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+}
+.txtSupp i {
+  font-size: 30px;
+  text-shadow: 0 0 1px #fff;
+}
+.txtSupp p {
+  color: #000;
+}
+
+.subTitleSupp {
+  border: #0668AE solid 5px;
+  padding: 10px 15px;
+}
+
+.txt2Supp {
+  font-size: 18px;
+  color: #000;
+}
+.txt2Supp h3 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+.txt2Supp a {
+  color: black;
+}
+
+fieldset {
+  background-color: #fff;
+  padding: 20px;
+  justify-content: center;
+  margin: 30px;
+  border: #1D41AB solid;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form legend {
+  background-color: #0668AE;
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.form label {
+  font-size: 18px;
+}
+.form input {
+  background-color: rgba(33, 92, 147, 0.5607843137);
+  padding: 5px;
+  border: #215B93 solid;
+  border-radius: 5px;
+}
+.form select {
+  background-color: rgba(33, 92, 147, 0.5607843137);
+  padding: 5px;
+  border: #215B93 solid;
+  border-radius: 5px;
+}
+.form textarea {
+  text-align: center;
+}
+.form .textarea {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.inp {
+  width: 90%;
+}
+
+.resetSubmit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.fondoCont {
+  background-image: url(../assets/img/PurificadorFondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  h1 {
+    font-size: 40px;
+  }
+  .h1Func {
+    font-size: 35px;
+  }
+  .rowHome .txtHome .img img {
+    width: 320px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0;
+  }
+  .rowHome .txtHome .img .imgPurif {
+    width: 100%;
+  }
+  .rowHome .txtHome .img .img2Purif {
+    width: 90%;
+  }
+  .rowHome .txtHome {
+    margin: 5px;
+  }
+  .rowHome .txtHome .txt {
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .txt3Purif2 {
+    padding-left: 24px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .subTitlePurif {
+    width: 150px;
+    text-align: start;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .txt2SuppAll {
+    margin: 0px 10px;
+  }
+}
+@media only screen and (min-width: 641px) and (max-width: 990px) {
+  .img .img2Purif {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .txtSupp {
+    font-size: 24px;
+  }
+  .txtSupp i {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .img img, .rowHome .txtHome .img img {
+    width: 800px;
+  }
+  .rowHome .txtHome .img .img2Purif {
+    width: 90%;
+  }
+}
+footer {
+  background-color: #36A3A2;
+  padding: 13px;
+}
+footer .footInfo {
+  font-size: 16px;
+}
+footer .footInfo a {
+  color: #215B93;
+  text-decoration: none;
+}
+footer .footInfo a:hover {
+  color: #333;
+}
+footer .footRedes {
+  font-size: 20px;
+  text-align: center;
+}
+footer .footRedes i {
+  font-size: 36px;
+  text-indent: 25px;
+  text-align: center;
+  color: #333;
+  text-shadow: 0 0 4px #215B93;
+}
+footer .footRedes i:hover {
+  color: #215B93;
+}
+
+/*# sourceMappingURL=style.css.map */

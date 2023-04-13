@@ -1,0 +1,32 @@
+footer{
+    background-color: $verde;
+    padding: 13px;
+
+    .footInfo{
+        font-size: 16px;
+
+        a{
+            color: #215B93;
+            text-decoration: none;
+        }
+
+        a:hover{
+                color: #333;
+            }
+    }
+    .footRedes{
+        font-size: 20px;
+        text-align: center;
+
+        i{
+            font-size: 36px;
+            text-indent: 25px;
+            text-align: center;
+            color: #333;
+            text-shadow: 0 0 4px #215B93;
+        }
+        i:hover{
+            color: #215B93;
+        }
+    }
+}

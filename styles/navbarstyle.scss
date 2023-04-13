@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #1D41AB;
+
+    .navButtons{
+        color: #fff;
+        font-size: 20px;
+        background-color: #0668AE;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin: 10px;
+        display: inline-block;
+    }
+    .navButtons:hover{
+        background-color: #36A3A2;
+    }
+}

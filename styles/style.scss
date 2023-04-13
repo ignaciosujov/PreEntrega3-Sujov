@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+// paleta de colores
+$blanco: white;
+$azul: #1D41AB;
+$celeste: #0668AE;
+$celesteoscuro: #215B93;
+$verde: #36A3A2;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #215B93;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+@import "./navbarstyle.scss";
+@import "./mainstyle.scss";
+@import "./footerstyle.scss";
