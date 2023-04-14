@@ -37,6 +37,7 @@ header {
 }
 
 h1 {
+  width: -moz-max-content;
   width: max-content;
   padding: 15px;
   margin: 15px;
@@ -94,6 +95,7 @@ h1 {
 }
 
 .listFunc {
+  width: -moz-max-content;
   width: max-content;
   background-color: #1D41AB;
   padding: 15px;
@@ -333,6 +335,4 @@ footer .footRedes i {
 }
 footer .footRedes i:hover {
   color: #215B93;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
