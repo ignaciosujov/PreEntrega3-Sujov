@@ -3,13 +3,15 @@ h1 {
   width: max-content;
   padding: 15px;
   margin: 15px;
-  background-color: white;
+  background-color: #215b93;
+  background-image: linear-gradient(31deg, #36A3A2 0%, #fff 50%, #ffffff 100%);
   font-size: 50px;
   font-weight: bold;
   text-align: center;
   border-radius: 20px;
-  border: #36A3A2 solid 10px;
+  border: #36A3A2 solid 2px;
   text-shadow: 1px 1px 2px #000;
+  box-shadow: 0px 0px 10px 2px #000;
   margin-top: 150px;
 }
 
